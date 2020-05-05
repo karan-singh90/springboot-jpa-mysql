@@ -1,9 +1,9 @@
-package com.devglan.service.impl;
+package com.learningtutorial.service.impl;
 
-import com.devglan.dao.UserDao;
-import com.devglan.model.User;
-import com.devglan.model.UserDto;
-import com.devglan.service.UserService;
+import com.learningtutorial.dao.UserDao;
+import com.learningtutorial.model.User;
+import com.learningtutorial.model.UserDto;
+import com.learningtutorial.service.UserService;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

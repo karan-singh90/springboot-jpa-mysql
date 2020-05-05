@@ -1,9 +1,9 @@
-package com.devglan.controller;
+package com.learningtutorial.controller;
 
-import com.devglan.model.ApiResponse;
-import com.devglan.model.User;
-import com.devglan.model.UserDto;
-import com.devglan.service.UserService;
+import com.learningtutorial.model.ApiResponse;
+import com.learningtutorial.model.User;
+import com.learningtutorial.model.UserDto;
+import com.learningtutorial.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;

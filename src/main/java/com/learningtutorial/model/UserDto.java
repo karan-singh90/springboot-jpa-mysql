@@ -1,29 +1,14 @@
-package com.devglan.model;
+package com.learningtutorial.model;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
+public class UserDto {
 
-import javax.persistence.*;
-
-@Entity
-@Table(name = "user")
-public class User {
-
-    @Id
-    @GeneratedValue(strategy= GenerationType.IDENTITY)
     private int id;
-    @Column
     private String firstName;
-    @Column
     private String lastName;
-    @Column
     private String username;
-    @Column
-    @JsonIgnore
     private String password;
-    @Column
-    private long salary;
-    @Column
     private int age;
+    private long salary;
 
     public int getId() {
         return id;
@@ -65,19 +50,19 @@ public class User {
         this.password = password;
     }
 
-    public long getSalary() {
-        return salary;
-    }
-
-    public void setSalary(long salary) {
-        this.salary = salary;
-    }
-
     public int getAge() {
         return age;
     }
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    public long getSalary() {
+        return salary;
+    }
+
+    public void setSalary(long salary) {
+        this.salary = salary;
     }
 }

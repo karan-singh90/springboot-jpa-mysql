@@ -1,6 +1,6 @@
-package com.devglan.config;
+package com.learningtutorial.config;
 
-import com.devglan.model.ApiResponse;
+import com.learningtutorial.model.ApiResponse;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 

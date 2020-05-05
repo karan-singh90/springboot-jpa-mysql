@@ -1,7 +1,7 @@
-package com.devglan.service;
+package com.learningtutorial.service;
 
-import com.devglan.model.User;
-import com.devglan.model.UserDto;
+import com.learningtutorial.model.User;
+import com.learningtutorial.model.UserDto;
 
 import java.util.List;
 

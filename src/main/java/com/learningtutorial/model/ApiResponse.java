@@ -1,4 +1,4 @@
-package com.devglan.model;
+package com.learningtutorial.model;
 
 public class ApiResponse<T> {
 
