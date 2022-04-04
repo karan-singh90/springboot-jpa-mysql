@@ -8,7 +8,8 @@ phases:
   post_build:
     commands:
       - echo Build completed successfully
+      - mv target/userservice.jar ./
 artifacts:
   files:
-    - springboot-jpa-mysql/target/userservice.jar
+    - userservice.jar
   discard-paths: yes
