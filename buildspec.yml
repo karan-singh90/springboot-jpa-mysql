@@ -7,9 +7,8 @@ phases:
       - mvn clean package
   post_build:
     commands:
-      - echo Build completed successfully
-      - mv target/userservice.jar ./
+      - echo Build completed successfully!!
 artifacts:
   files:
-    - userservice.jar
+    - target/order-service.jar
   discard-paths: yes
