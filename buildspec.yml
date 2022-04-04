@@ -10,5 +10,5 @@ phases:
       - echo Build completed successfully
 artifacts:
   files:
-    - target/userservice.jar
+    - springboot-jpa-mysql/target/userservice.jar
   discard-paths: yes
