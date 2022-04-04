@@ -7,9 +7,8 @@ phases:
       - mvn clean package
   post_build:
     commands:
-      - echo Build completed successfully!!
-      - echo $CODEBUILD_SRC_DIR
+      - echo Build completed successfully
 artifacts:
   files:
-    - target/userservice.jar
+    - target/springboot-jpa-mysql*/*
   discard-paths: yes
