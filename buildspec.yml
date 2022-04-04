@@ -11,5 +11,5 @@ phases:
       - echo $CODEBUILD_SRC_DIR
 artifacts:
   files:
-    - target/userservice.jar
+    - /codebuild/output/src615478493/src/target/spring-boot-rest-1.0-SNAPSHOT.war
   discard-paths: yes
