@@ -4,12 +4,12 @@ phases:
   build:
     commands:
       - echo Entered the build phase...
-      - mvn clean install
+      - mvn clean package
   post_build:
     commands:
       - echo Build completed successfully!!
       - echo $CODEBUILD_SRC_DIR
 artifacts:
   files:
-    - /codebuild/output/src615478493/src/target/spring-boot-rest-1.0-SNAPSHOT.war
+    - root/target/userservice.jar
   discard-paths: yes
